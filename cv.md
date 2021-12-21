@@ -54,3 +54,20 @@ $(document).scroll(function(){
         renderCartGoods(JSON.parse(localStorage.getItem('cart')))
     }
 ```
+
+## **Experience** 
+* [Fructcode](fructcode.com)
+* [Kursy.by](Kursy.by)
+
+## **Education** 
+* 2019
+    * online training for [Glo Academy](https://www.youtube.com/c/GloAcademyChannel);
+    * online training for [Web Developer Blog](https://www.youtube.com/c/SuprunAlexey).
+* 2020: 
+    * Institute BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIO ELECTRONICS (electronic security systems);
+    * Basics of web-programming on the platform fructcode.com (HTML, CSS, PHP, JS).
+* 2021:
+    * Completed the course on Front-End Developer.
+
+## **English**
+My english level is **Beginner (A1-A2)**. I started teaching him only when I realized that I would be Front-End Developer.
