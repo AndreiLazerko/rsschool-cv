@@ -1,5 +1,5 @@
 # ___Lazerko Andrey___
-![My-photo](images/My-photo.jpg)<br>
+![My-photo](images/My-photo1.jpg)<br>
 *new student in RS-School*
 
 ## ***My Contacts:***
