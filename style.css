@@ -90,7 +90,7 @@ header{
  .contacts li{
      list-style-type: none;
      float: left;
-     margin-right: 20px;
+     margin-right: 25px;
      margin-bottom: 10px;
      border: 2px solid #f7f7f7;
      background-color: #fff;
@@ -212,7 +212,7 @@ article pre{
     left: 0;    
     background: rgba(104, 98, 98, 0.9);
     width: 100%;
-    height: 10%;
+    height: 9%;
 }
 
 .bottom{
@@ -226,15 +226,15 @@ article pre{
 }
 .bottom img{
     width: 60px;
-    margin-top: 5px;
+    margin-top: 10px;
 }
 .bottom span{
-    margin-top: 15px;
+    margin-top: 25px;
     color: aqua;
     font-size: 1.2em;
     font-weight: bold;
     display: block;
 }
 .logo-rs{
-    margin-top: 10px;
+    margin-top: 15px;
 } 
