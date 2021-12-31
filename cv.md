@@ -70,4 +70,4 @@ $(document).scroll(function(){
     * Completed the course on Front-End Developer.
 
 ## **English**
-My english level is **Beginner (A1-A2)**. I started teaching him only when I realized that I would be Front-End Developer.
+My english level is **Beginner (A1-A2)**. I started learning him only when I realized that I would be Front-End Developer.
