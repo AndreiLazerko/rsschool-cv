@@ -3,12 +3,12 @@
 $(document).scroll(function(){
 	if($(document).scrollTop()>1100){
 
-		/*Шапка маленькая*/
+		/*Show fooer*/
 		$(".foot").fadeIn(1500);
 	};
 	if($(document).scrollTop()<=1100)
 	{
-		/*Шапка большая*/
+		/*Hide footer*/
 
 		$(".foot").hide();
 	};
