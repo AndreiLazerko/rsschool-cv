@@ -9,6 +9,127 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <h1>Lazerko Andrei</h1>
+    <header class="header">
+        <div class="main-top">
+            <p class="logo">
+                <a href="index.html"><img src="images/logo.png" alt="logo"></a>
+            </p>
+            <nav>
+                <ul class="menu">
+                    <li><a href="index.html#I">About Me</a></li>
+                    <li><a href="index.html#Skills">Skills</a></li>
+                    <li><a href="index.html#Code">Code Examples</a></li>
+                    <li><a href="index.html#Education">Education</a></li>
+                    <li><a href="index.html#English">English</a></li>
+					<li><a href="index.html#Experience">Experience</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="content">
+    <div class="cutaway">
+        <div class="author">
+             <img src="images/My-photo.jpg" alt="author">
+             <h1>Lazerko Andrei</h1>
+        </div>
+        <div class="contacts">
+          <h2>My Contacts</h2>
+            <ul>
+                <li><a href="tel:+375445342324" target="_blank"><img src="images/phone.png" alt="phone"></a></li>
+                <li><a href="mailto:Lazerabate9119@gmail.com" target="_blank"><img src="images/gmail.png" alt="gmail"></a></li>
+                <li><a href="https://github.com/AndreiLazerko" target="_blank"><img src="images/github.png" alt="github"></a></li>
+                <li><a href="https://www.instagram.com/andreilazerko/?hl=ru" target="_blank"><img src="images/instagram.png" alt="instagram"></a></li>
+                <li><a href="https://vk.com/id22186765" target="_blank"><img src="images/vk.png" alt="vk"></a></li>
+            </ul>
+        </div>
+    </div>
+    <main class="wrapper">
+        <article> <a id="I"></a>
+            <h3>About me</h3>
+            <p>I have been studying web development for 2 years now. Started with HTML / CSS, 
+                started JavaScript this year. I did a couple of trial works for myself. 
+                Completed courses on <span>Front-End Developer</span> .<br>
+                The level of English is still low, but I will study. 
+                Great plans and desire to study this topic and this work.
+            </p>
+        </article>
+        <article> <a id="Skills"></a>
+            <h3>Skills</h3>
+            <p>Basic knowledge:</p>
+            <ul>
+                <li>HTML, CSS (Bootstrap)</li>
+                <li>JavaScript (jQuery)</li>
+                <li>PHP/MYSQL</li>
+                <li>Adobe Photoshop</li>
+            </ul>
+        </article>
+        <article> <a id="Code"></a>
+            <h3>Code examples</h3>
+            <p>Change header:</p>
+            <pre>
+                <code>
+                    $(document).scroll(function(){
+                        if($(document).scrollTop()>250){
+                            /*hat little*/
+                            $(".header-t").css('padding','6px 0 1px 15px');
+                            $(".head-0").css('background',' rgba(7,7,7,0.6)');
+                            $("#logo").attr('src','images/logo-min.png');
+                        };
+                        if($(document).scrollTop()&lt;250)
+                        {
+                            /*hat big*/
+                            $(".header-t").css('padding','25px 0 20px 15px');
+                            $(".head-0").css('background',' rgba(7,7,7,0.3)');
+                            $("#logo").attr('src','images/logo-max.png');
+                        };
+                    });
+                </code>
+            </pre>
+        </article>
+        <article> <a id="Education"></a>
+            <h3>Education</h3> 
+            <div class="year">
+                <h4>2019</h4>
+                <p>Оnline training for <a href="https://www.youtube.com/c/GloAcademyChannel">Glo Academy</a></p>
+                <p>Оnline training for <a href="https://www.youtube.com/c/GloAcademyChannel">Web Developer Blog</a></p>
+            </div>
+            <div class="year">
+                <h4>2021</h4>
+                <p>Institute BELARUSIAN STATE UNIVERSITY OF INFORMATICS AND RADIO ELECTRONICS (electronic security systems)</p>
+                <p>Basics of web-programming on the platform <a href="fructcode.com">fructcode.com</a>  (HTML, CSS, PHP, JS) </p>
+            </div>
+            <div class="year">
+                <h4>2021</h4>
+                <p>Completed the course on Front-End Developer on <a href="https://kursy.by/">kursy.by</a></p>
+            </div>
+        </article>
+        <article> <a id="English"></a>
+            <h3>English</h3> 
+            <p>My english level is <span>Beginner (A1-A2)</span> .</p>
+        </article>
+        <article> <a id="Experience"></a>
+            <h3>Experience</h3> 
+                <div class="slideShow">
+                      <p><a href="Kursy.by">Kursy.by</a> for cinema site:</p>
+                    <div><a href="https://andreilazerko.github.io/mk/MK" target="_blank"><img src="images/slide1.png" alt="slide1"></a></div>
+                </div>
+                <div class="slideShow">
+                    <p><a href="fructcode.com">fructcode.com</a> for cinema site :</p>
+          <a href="https://andreilazerko.github.io/KinoMonstr/index.html" target="_blank"><img src="images/slide2.png" alt="slide2"></a>
+              </div>          
+        </article>  
+    </main>
+    </div>
+    
+    <footer class="foot">
+        <div class="bottom"><a href="https://github.com/AndreiLazerko"><img src="images/github-b.png" alt=""></a></div>
+        <div class="bottom"><span>2021</span></div>
+        <div class="logo-rs"><a href="https://rs.school/js/"><img src="images/rs_school_logo.svg" width="100" alt=""></a></div>
+    </footer>
+
+    <script src="js/jquery-2.2.2.min.js"></script>
+	<script src="js/slider.js"></script>
+    
 </body>
 </html>

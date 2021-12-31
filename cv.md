@@ -3,12 +3,12 @@
 *new student in RS-School*
 
 ## ***My Contacts:***
-* ![phone](phone.png)  +375-44-534-23-24
-* ![gmail](gmail.png) Lazerabate9119@gmail.com
-* ![discord](discord.png) lazera1991(Andreilazerko)
-* ![vk](vk.png) https://vk.com/id22186765
-* ![github](github.png)AndreiLazerko
-* ![Instagram](instagram.png)andreilazerko
+* ![phone](images/phone.png)  +375-44-534-23-24
+* ![gmail](images/gmail.png) Lazerabate9119@gmail.com
+* ![discord](images/discord.png) lazera1991(Andreilazerko)
+* ![vk](images/vk.png) https://vk.com/id22186765
+* ![github](images/github.png)AndreiLazerko
+* ![Instagram](images/instagram.png)andreilazerko
 
 ## **Summary**
 I have been studying web development for 2 years now. Started with HTML / CSS, started JavaScript this year. I did a couple of trial works for myself. Completed courses on _Front-End Developer_.
@@ -70,4 +70,4 @@ $(document).scroll(function(){
     * Completed the course on Front-End Developer.
 
 ## **English**
-My english level is **Beginner (A1-A2)**. I started teaching him only when I realized that I would be Front-End Developer.
+My english level is **Beginner (A1-A2)**. I started learning him only when I realized that I would be Front-End Developer.
