@@ -55,3 +55,53 @@ header{
 	border-bottom: 1px solid #fff;
 	padding-bottom: 3px;
 }
+/* MAIN */
+
+.content{
+    padding: 10px; 
+ }
+ 
+ .cutaway{
+     position: fixed;
+     top: 66px;
+     width: 18%;  
+     float: left;          
+     border: 3px solid #09a010;
+     border-radius: 6px;
+     box-shadow: #fff;
+ }
+ 
+ .author img{
+     width: 100%;
+ }
+ 
+ .author h1{
+     margin: 15px auto;
+     text-align: center;
+     color:goldenrod;
+ }
+ 
+ .contacts h2{
+     margin: 15px auto;
+     text-align: center;
+     color: gold;
+ }
+ 
+ .contacts li{
+     list-style-type: none;
+     float: left;
+     margin-right: 20px;
+     margin-bottom: 10px;
+     border: 2px solid #f7f7f7;
+     background-color: #fff;
+ }
+ 
+ .contacts li a{
+      padding: 0;
+      margin: 0;
+ }
+ 
+ .contacts li a:hover{
+     opacity: 0.7;
+ }
+ 
