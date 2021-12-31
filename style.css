@@ -104,4 +104,105 @@ header{
  .contacts li a:hover{
      opacity: 0.7;
  }
+
+ .wrapper{
+    width: 80%;
+    float: right;
+    top: 65px;
+    margin: 60px auto 0 auto;
+   
+ }
+
+article h3{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(214, 214, 6);
+    padding-bottom: 5px;
+    margin: 40px auto 15px auto;
+    border-bottom: 2px solid rgb(8, 139, 96);
+}
+
+article p{
+    color:rgba(56, 247, 215, 0.747);
+    padding: 2px 5px;
+}
+
+article p span{ 
+    text-transform: uppercase;
+    font-weight: 700;
+    color:darkkhaki
+}
+
+article ul li{
+    list-style-image: url(images/yes.png);
+    margin-bottom: 3px;
+    color: gainsboro;
+}
+
+article ol li{
+    margin-bottom: 3px;
+    color: gainsboro;
+}
+    
+article pre{
+    background-color: darkcyan;
+    color: #f7f7f7;
+    width: 70%;
+    margin: 10px auto;
+    display: table;
+    align-items: center;
+}
+
+.slideShow {
+    width: 46%;
+    float: left; 
+    margin-right: 15px;
+}
+
+.slideShow a{
+    text-decoration: none;
+    color: darkkhaki;
+}
+
+.slideShow a:hover{
+    color: darkseagreen;
+    border-bottom: 1px dotted blanchedalmond;
+}
+
+.slideShow img{
+  width: 100%;
+  margin-bottom: 115px;
+}
+
+.slideShow img:hover{
+    opacity: 0.8;
+    width: 99%;
+    margin-top: 1%;
+}
+
+.year{
+    background-color: brown;
+    margin-top: 20px;
+    padding: 3px 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+    box-shadow: 10px 5px 5px rgb(255, 145, 0);
+}
+
+.year h4{
+    color: darkorange;
+    text-align: center;
+    text-shadow: #eb0524;
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.year a{
+    text-decoration: none;
+    color: darkkhaki
+}
+
+.year a:hover{
+    text-shadow: 1px 1px 1px #0af163;
+}
  
