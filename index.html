@@ -35,17 +35,17 @@
         <div class="author">
              <img src="images/My-photo.jpg" alt="author">
              <h1>Lazerko Andrei</h1>
-        </div>
-        <div class="contacts">
-          <h2>My Contacts</h2>
-            <ul>
-                <li><a href="tel:+375445342324" target="_blank"><img src="images/phone.png" alt="phone"></a></li>
-                <li><a href="mailto:Lazerabate9119@gmail.com" target="_blank"><img src="images/gmail.png" alt="gmail"></a></li>
-                <li><a href="https://github.com/AndreiLazerko" target="_blank"><img src="images/github.png" alt="github"></a></li>
-                <li><a href="https://www.instagram.com/andreilazerko/?hl=ru" target="_blank"><img src="images/instagram.png" alt="instagram"></a></li>
-                <li><a href="https://vk.com/id22186765" target="_blank"><img src="images/vk.png" alt="vk"></a></li>
-            </ul>
-        </div>
+            <div class="contacts">
+            <h2>My Contacts</h2>
+                <ul>
+                    <li><a href="tel:+375445342324" target="_blank"><img src="images/phone.png" alt="phone"></a></li>
+                    <li><a href="mailto:Lazerabate9119@gmail.com" target="_blank"><img src="images/gmail.png" alt="gmail"></a></li>
+                    <li><a href="https://github.com/AndreiLazerko" target="_blank"><img src="images/github.png" alt="github"></a></li>
+                    <li><a href="https://www.instagram.com/andreilazerko/?hl=ru" target="_blank"><img src="images/instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://vk.com/id22186765" target="_blank"><img src="images/vk.png" alt="vk"></a></li>
+                </ul>
+            </div>     
+        </div>     
     </div>
     <main class="wrapper">
         <article> <a id="I"></a>
@@ -72,21 +72,21 @@
             <p>Change header:</p>
             <pre>
                 <code>
-                    $(document).scroll(function(){
-                        if($(document).scrollTop()>250){
-                            /*hat little*/
-                            $(".header-t").css('padding','6px 0 1px 15px');
-                            $(".head-0").css('background',' rgba(7,7,7,0.6)');
-                            $("#logo").attr('src','images/logo-min.png');
-                        };
-                        if($(document).scrollTop()&lt;250)
-                        {
-                            /*hat big*/
-                            $(".header-t").css('padding','25px 0 20px 15px');
-                            $(".head-0").css('background',' rgba(7,7,7,0.3)');
-                            $("#logo").attr('src','images/logo-max.png');
-                        };
-                    });
+    $(document).scroll(function(){
+        if($(document).scrollTop()>250){
+            /*hat little*/
+            $(".header-t").css('padding','6px 0 1px 15px');
+            $(".head-0").css('background',' rgba(7,7,7,0.6)');
+            $("#logo").attr('src','images/logo-min.png');
+        };
+        if($(document).scrollTop()&lt;250)
+        {
+            /*hat big*/
+            $(".header-t").css('padding','25px 0 20px 15px');
+            $(".head-0").css('background',' rgba(7,7,7,0.3)');
+            $("#logo").attr('src','images/logo-max.png');
+        };
+    });
                 </code>
             </pre>
         </article>
