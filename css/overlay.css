@@ -1,0 +1,121 @@
+/* :root {
+  --main-color: #fff;
+  --second-color: #262626;
+  --one-color: #c41d1d;
+  --two-color: #00654E;
+  --three-color: #005844;
+  --main-bg-color: #005844;
+  --secont-bg-color: #C0B487;
+  --trigger-color: #E5AB39;
+} */
+
+.overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 100;
+  background-color: rgba(0, 0, 0, 0.6);
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  overflow-y: auto;
+  display: none;
+}
+
+.overlay_active{
+  display: flex;
+}
+
+.modal{
+  position: relative;
+  background-color:blanchedalmond;
+  color:brown;
+  max-width: 950px;
+  padding: 60px 85px;
+  border: 2px solid greenyellow;
+  border-radius: 14px;
+  width: 100%;
+}
+.modal__close{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  background-color: transparent;
+  border: none;
+  color: indigo;
+  transition: color .3s ease-in;
+}
+.modal__close:hover{
+  color: rgb(238, 2, 238)
+}
+.modal__close:focus{
+  color: rgb(123, 63, 179);
+  outline: 1px solid rgba(173, 241, 70, 0.76);
+}
+.modal__close:active{
+  color: rgb(238, 2, 2)
+}
+
+.modal__title{
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgb(255, 159, 15);
+  text-shadow: 1px 1px gold;
+  margin-bottom: 50px;
+}
+
+.modal__list{
+  font-size: 24px;
+  line-height: 140%;
+  color: darkred;
+  list-style-image: url(../images/icons/yes.png);
+
+}
+.modal__item{
+  line-height: 1.2;
+  margin-bottom: 10px;
+}
+
+.modal__link{
+  color: rgb(131, 113, 35);
+  text-decoration: underline;
+}
+.modal__link:hover{
+  color: rgb(35, 65, 131);
+}
+.modal__link:active{
+  color: rgb(35, 128, 131);
+  text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+  .modal{
+    max-width: 650px;
+    padding: 40px 65px;
+  }
+  .modal__title{
+    margin-bottom: 40px;
+  }
+  .modal__list {
+    font-size: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .modal{
+    max-width: 450px;
+    padding: 15px 40px;
+  }
+  .modal__title{
+    margin-bottom: 30px;
+  }
+  .modal__list {
+    font-size: 16px;
+  }
+}

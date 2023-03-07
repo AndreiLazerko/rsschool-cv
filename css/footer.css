@@ -1,0 +1,44 @@
+.footer{
+  position: absolute;
+  background: rgba(104, 98, 98, 0.9);
+  width: 100%;
+  padding: 20px 20px;
+  margin: 0;
+}
+
+.footer__list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#Layer_1{
+  width: 100px;
+  color: black;
+}
+#Layer_1:hover{
+  color: rgb(162, 8, 8);
+}
+
+.footer__button{
+  display: block;
+  height: 40px;
+  width: 40px;
+}
+
+.footer__item svg:hover{
+  color: rgba(144, 238, 144, 0.59);
+}
+
+.bottom span{
+  color: aqua;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+.logo-rs{
+  width: 100px;
+} 
+.logo-rs:hover{
+  background-color: rgba(104, 98, 98, 0.9);
+}
+
